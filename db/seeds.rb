@@ -30,7 +30,7 @@
 
 
    path_image = 'public/images/categories/peruvian.jpg'
-   c = Category.create(id: 5, title: 'vegana')
+   c = Category.create(id: 5, title: 'peruana')
    c.image.attach(io: File.open(path_image), filename: 'peruana.jpg')
 
 

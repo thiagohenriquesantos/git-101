@@ -13,7 +13,7 @@ class CreateRestaurants < ActiveRecord::Migration[5.2]
       t.string :complement
       t.string :reference
       t.string :cep
-      t.float :latitute
+      t.float :latitude
       t.float :longitude
       t.references :category, foreign_key: true
 

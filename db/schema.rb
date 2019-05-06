@@ -93,7 +93,7 @@ ActiveRecord::Schema.define(version: 2019_05_06_153306) do
     t.string "complement"
     t.string "reference"
     t.string "cep"
-    t.float "latitute"
+    t.float "latitude"
     t.float "longitude"
     t.integer "category_id"
     t.datetime "created_at", null: false
